@@ -17,7 +17,13 @@ Since 2013, the Citi Bike Program has implemented a robust infrastructure for co
 
 ## Phenomenons uncovered
 
-- **
+- **All the city bike pickup points are in regions with median age below 35. However, riders have proved that age is just a number!**
+It looks like midlife crisis is pushing riders too. Though the frequent riders are between 25-35 age group, there is a sudden surge around 50. Also, kids and age-group around 50 are having higher trip duration. This might be because of the fact that, they like to keep the bike for longer as well. **This is an indication that, opening new pickup points even in places of age groups around 50 is useful.**
+
+![locations](Images/ph1.png)
+![ageVsrides](Images/ph1.png)
+- 
+  
 
 **Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
