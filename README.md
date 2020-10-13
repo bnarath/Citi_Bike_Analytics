@@ -48,3 +48,5 @@ There are many interactive graphs (based on slider or dropdown filters)
   - Visual4 - Visual 8 
 - Gender breakdown of active participants (Male v. Female)? - Through animation and slider
 - Which bikes (by ID) are most likely due for repair or inspection in the timespan? - Through slider
+
+## Tableau solution file [here](FinalSubmission.twbx)
