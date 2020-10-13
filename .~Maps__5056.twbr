@@ -1662,6 +1662,10 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[none:Calculation_130956268655886342:qk]' field-type='quantitative' max='-8226778.3188801939' min='-8256208.372308204' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[none:Calculation_130956268655665157:qk]' field-type='quantitative' max='4984213.8047032077' min='4952456.3739566542' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
           <style-rule element='map-layer'>
             <format attr='enabled' id='parks' value='false' />
             <format attr='enabled' id='landcover_wood' value='false' />
@@ -5569,7 +5573,7 @@
       </viewpoint>
       <simple-id uuid='{B21E628D-EAE2-4768-A0C6-70D106657775}' />
     </window>
-    <window class='worksheet' name='Map2'>
+    <window class='worksheet' maximized='true' name='Map2'>
       <cards>
         <edge name='left'>
           <strip size='100'>
@@ -5744,7 +5748,7 @@
       </viewpoint>
       <simple-id uuid='{F62BE309-3B9E-4EC5-A16A-9524216453F8}' />
     </window>
-    <window class='worksheet' maximized='true' name='Visual5'>
+    <window class='worksheet' name='Visual5'>
       <cards>
         <edge name='left'>
           <strip size='160'>
