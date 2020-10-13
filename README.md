@@ -3,141 +3,48 @@
 
 ![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
 
-[New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey. Named after lead sponsor Citigroup, it is operated by Motivate (formerly Alta Bicycle Share), with former Metropolitan Transportation Authority CEO Jay Walder as chief executive until September 30, 2018 when the company was acquired by Lyft. The system's bikes and stations use BIXI-branded technology from PBSC Urban Solutions. This project is to oversee this largest bike sharing program in the United States and  generate insighful and dynamic reports to improve the city program through the power of [Tableau.](https://www.tableau.com/)
+[New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey. Named after lead sponsor Citigroup, it is operated by Motivate (formerly Alta Bicycle Share), with former Metropolitan Transportation Authority CEO Jay Walder as chief executive until September 30, 2018 when the company was acquired by Lyft. The system's bikes and stations use BIXI-branded technology from PBSC Urban Solutions. This project is to oversee this largest bike sharing program in the United States and  generate insightful and dynamic reports to improve the city program through the power of [Tableau.](https://www.tableau.com/)
 
 Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage. For the analysis, recent data i.e, from 2018 January to 2020 August are collected and combined using code [here.](DataMerge_2018_Jan_to_2020_August.ipynb)
 
 ### Please checkout the dashboards and stories !
 
 * Final work is published at Tableau Public account .
-  - [Story 1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story1)
-  - [Story 2](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story2)
-  - [All individual visuals and dashboards clubbed](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Combined_Visuals/Combined)
+  - [Story 1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story1)
+  - [Story 2](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story2)
+  - [All individual visuals and dashboards clubbed](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Combined_Visuals/Combined)
 
 
 ## Phenomenons uncovered
 
 - **All the city bike pickup points are in regions with median age below 35. However, riders have proved that age is just a number!**
-It looks like midlife crisis is pushing riders too. Though the frequent riders are between 25-35 age group, there is a sudden surge around 50. Also, kids and age-group around 50 are having higher trip duration. This might be because of the fact that, they like to keep the bike for longer as well. **This is an indication that, opening new pickup points even in places of age groups around 50 is useful.**
+It looks like the midlife crisis is pushing riders too. Though the frequent riders are between 25-35 age groups, there is a sudden surge around 50. Also, kids and age-groups around 50 are having higher trip duration. This might be because of the fact that they like to keep the bike for longer as well. **This is an indication that, opening new pickup points even in places of age groups around 50 is useful.**
 
 ![locations](Images/ph1.png)
-![ageVsrides](Images/ph1.png)
-- 
-  
+![ageVsrides](Images/ph2.png)
 
-**Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
+- **Temporary customer segments are getting bigger over time** Targeted marketing towards temp customers might benefit!
+[tempCustomers](Images/ph3.png)
 
-**Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.** 
+- **Irrespective of winter or summer, there is a peek ride time** Being prepared during these busy hours (by more bikes in required locations) would improve customer satisfaction
+[summer](Images/ph4.png)
+[winter](Images/ph5.png)
 
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
+- **Gender diversity and inclusion is getting better but way to go** Though most of the riders are male, it seems like gender outreach has been effective in increasing ridership over the timespan, however, miles to go further in this line ! 
+[evolving](Images/ph6.png)
+[latest](Images/ph7.png)
 
-* How many trips have been recorded total during the chosen period?
+- **Unequal usage of bikes**
+Some bikes are overused (based on distance travelled) and some are rarely used. This might be because of the reason where they get parked. 
+Finding a way to shuffle the bikes across locations can help distribute the wear and tear. Otherwise, identifying the overused bikes based on the interactive graph made helps to reduce the damage.
+[usage](Images/ph8.png)
 
-* By what percentage has total ridership grown?
-
-* How has the proportion of short-term customers and annual subscribers changed?
-
-* What are the peak hours in which bikes are used during summer months?
-
-* What are the peak hours in which bikes are used during winter months?
-
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-* Today, what is the gender breakdown of active participants (Male v. Female)?
-
-* How effective has gender outreach been in increasing female ridership over the timespan?
-
-* How does the average trip duration change by age?
-
-* What is the average distance in miles that a bike is ridden?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
-
-**Next, as a chronic over-achiever:**
-
-* Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-* The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring. 
-
-**City officials would also like to see one of the following visualizations:**
-
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-**Finally, create your final presentation**
-
-* Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
-
-## Considerations
-
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
-
-## Submission 
-
-Your final submission should include:
-
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
-  * 2 Dashboards
-  * 1 City Official Map
-  * 1 Story 
-* A text or markdown file with your analysis on the phenomenons you uncovered from the data.
-
-## Sharing Your Work
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
-
-To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
-
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Attraction
-
-
-## Hints
-
-* You may need to get creative in how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works and just go with it.
-
-* Don't just assume the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can blockade your analysis. Ensure your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).
-
-* Consider building your visualizations with small extracts of the data (i.e. single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time-course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't "answer" anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their need-to-know and the importance of not "cramming in everything". Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual story-telling. The Citi Bike program has a clear visual footprint. As a suggestion, look for ways to have your data visualizations match their aesthetic tones.
-
-* Pay attention to labels. What exactly is "time duration"? What's the value of "age of birth"? You will almost certainly need calculated fields to get what you need.
-
-* Keep a close eye for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information on socioeconomic or other geographic data. Tableau has a map "layer" feature that you may find handy.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered all that you need -- so you will need to keep an eye out for new tricks.
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
-
-* Good luck!
-
-### Copyright
-
-Data Boot Camp © 2019. All Rights Reserved.
+## Interactive graphs
+  
+There are many interactive graphs (based on slider or dropdown filters)
+- Changing popularity of stations over time - Through animation and slider
+  - Map1 & Map2
+- Top 10 most/least active stations based on the day chosen
+  - Visual4 - Visual 8 
+- Gender breakdown of active participants (Male v. Female)? - Through animation and slider
+- Which bikes (by ID) are most likely due for repair or inspection in the timespan? - Through slider
