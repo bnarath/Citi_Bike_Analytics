@@ -3,13 +3,11 @@
 
 ![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
 
-[New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey. Named after lead sponsor Citigroup, it is operated by Motivate (formerly Alta Bicycle Share), with former Metropolitan Transportation Authority CEO Jay Walder as chief executive until September 30, 2018 when the company was acquired by Lyft. The system's bikes and stations use BIXI-branded technology from PBSC Urban Solutions. This project is to oversee this largest bike sharing program in the United States and  generate insighful and dynamic reports to improve the city program through the power of [Tableau](https://www.tableau.com/)
+[New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey. Named after lead sponsor Citigroup, it is operated by Motivate (formerly Alta Bicycle Share), with former Metropolitan Transportation Authority CEO Jay Walder as chief executive until September 30, 2018 when the company was acquired by Lyft. The system's bikes and stations use BIXI-branded technology from PBSC Urban Solutions. This project is to oversee this largest bike sharing program in the United States and  generate insighful and dynamic reports to improve the city program through the power of [Tableau.](https://www.tableau.com/)
 
-Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage. For the analysis, recent data i.e, from 2018 January to 2020 August are collected and combined using code [here.]()
+Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage. For the analysis, recent data i.e, from 2018 January to 2020 August are collected and combined using code [here.](DataMerge_2018_Jan_to_2020_August.ipynb)
 
-However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have a number of questions on the program, so your first task on the job is to build a set of data reports to provide the answers.
-
-### Deployment
+### Please checkout the dashboards and stories !
 
 * Final work is published at Tableau Public account .
   - [Story 1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story1)
@@ -17,7 +15,9 @@ However, while the data has been regularly updated, the team has yet to implemen
   - [All individual visuals and dashboards clubbed](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Combined_Visuals/Combined)
 
 
-## Task
+## Phenomenons uncovered
+
+- **
 
 **Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
