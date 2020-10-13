@@ -24,20 +24,20 @@ It looks like the midlife crisis is pushing riders too. Though the frequent ride
 ![ageVsrides](Images/ph2.png)
 
 - **Temporary customer segments are getting bigger over time** Targeted marketing towards temp customers might benefit!
-[tempCustomers](Images/ph3.png)
+![tempCustomers](Images/ph3.png)
 
 - **Irrespective of winter or summer, there is a peek ride time** Being prepared during these busy hours (by more bikes in required locations) would improve customer satisfaction
-[summer](Images/ph4.png)
-[winter](Images/ph5.png)
+![summer](Images/ph4.png)
+![winter](Images/ph5.png)
 
 - **Gender diversity and inclusion is getting better but way to go** Though most of the riders are male, it seems like gender outreach has been effective in increasing ridership over the timespan, however, miles to go further in this line ! 
-[evolving](Images/ph6.png)
-[latest](Images/ph7.png)
+![evolving](Images/ph6.png)
+![latest](Images/ph7.png)
 
 - **Unequal usage of bikes**
 Some bikes are overused (based on distance travelled) and some are rarely used. This might be because of the reason where they get parked. 
 Finding a way to shuffle the bikes across locations can help distribute the wear and tear. Otherwise, identifying the overused bikes based on the interactive graph made helps to reduce the damage.
-[usage](Images/ph8.png)
+![usage](Images/ph8.png)
 
 ## Interactive graphs
   
