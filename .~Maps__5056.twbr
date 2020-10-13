@@ -4538,7 +4538,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[usr:Calculation_130956268709662729:qk]' scope='rows' value='Avergage Trips in a Month ' />
+            <format attr='title' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[usr:Calculation_130956268709662729:qk]' scope='rows' value='Avergage Trips in a Month (During Summer)' />
           </style-rule>
         </style>
         <panes>
@@ -4618,7 +4618,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[usr:Calculation_130956268709662729:qk]' scope='rows' value='Avergage Trips in a Month' />
+            <format attr='title' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[usr:Calculation_130956268709662729:qk]' scope='rows' value='Avergage Trips in a Month (During Winter)' />
           </style-rule>
         </style>
         <panes>
@@ -5429,7 +5429,7 @@
             <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='3423' id='3' w='98426' x='787' y='830' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' fixed-size='139' h='14419' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98426' x='787' y='4253' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='80498' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='18672'>
-              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Popularity of stations change over time. Some are evergreen popular - (Eg:- Grove St PATH). Where as some new stations get popular recently, pretty soon (Eg:- Newport Pkwy) ' captured-sheet='MapDashboard' id='6'>
                     <capturedDeltas>
@@ -5465,7 +5465,17 @@
                     </capturedDeltas>
                   </story-point>
                   <story-point caption='Temporary customer segment is getting bigger !!' captured-sheet='Visual2' id='3' />
-                  <story-point caption='Looks like people get most active at 8 AM and 6PM (almost equally) in the summer !!' captured-sheet='Visual3' id='4' />
+                  <story-point caption='Looks like people get most active at 8 AM and 6PM (almost equally) in the summer !!' captured-sheet='Visual3' id='4'>
+                    <capturedDeltas>
+                      <worksheet name='Visual3'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <format attr='title' class='0' field='[federated.100fllt1rc64351gy5euj0dicplz].[usr:Calculation_130956268709662729:qk]' scope='rows' value='Avergage Trips in a Month (During Summer)' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
                   <story-point caption='In winter rides are less (No surprise). But , surprisingly New York folks get relatively more active at 6 AM !!!' captured-sheet='Visual4' id='5' />
                   <story-point caption='Some stations are busier than others. The  below graphs gives the insight on most and least active stations on a selected day.' captured-sheet='StationDashboard' id='7' />
                 </story-points>
@@ -5502,7 +5512,7 @@
             <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='3423' id='3' w='98426' x='787' y='830' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' fixed-size='155' h='16079' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98426' x='787' y='4253' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='78838' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='20332'>
-              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Though most of the riders are male, it seems like gender outreach has been effective in increasing ridership over the timespan, however, miles to go further in this line !' captured-sheet='Visual10' id='1' />
                   <story-point caption='Gender Diversity Evolving Over Days' captured-sheet='Visual9' id='2'>
@@ -5573,7 +5583,7 @@
       </viewpoint>
       <simple-id uuid='{B21E628D-EAE2-4768-A0C6-70D106657775}' />
     </window>
-    <window class='worksheet' maximized='true' name='Map2'>
+    <window class='worksheet' name='Map2'>
       <cards>
         <edge name='left'>
           <strip size='100'>
@@ -5835,7 +5845,7 @@
       </cards>
       <simple-id uuid='{BF40E4A5-2B04-4A3C-A7ED-85A1B9AFEB03}' />
     </window>
-    <window class='worksheet' name='Visual8'>
+    <window class='worksheet' maximized='true' name='Visual8'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -6070,12 +6080,12 @@
     </window>
     <window class='dashboard' name='Story 1'>
       <viewpoints />
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{BFE9E5B9-BAB7-49AB-BCD6-E43FB686C988}' />
     </window>
     <window class='dashboard' name='Story 2'>
       <viewpoints />
-      <active id='4' />
+      <active id='5' />
       <simple-id uuid='{A9B0031B-89D0-4B50-8634-991702A78919}' />
     </window>
     <window class='dashboard' name='Combined'>
