@@ -12,6 +12,7 @@ Since 2013, the Citi Bike Program has implemented a robust infrastructure for co
 * Final work is published at Tableau Public account .
   - [Story 1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story1)
   - [Story 2](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_InsightsStory1/Story2)
+  - [Dashboard 1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_UsageTransition/UsageTransition)
   - [All individual visuals and dashboards clubbed](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Combined_Visuals/Combined)
 
 
