@@ -4,7 +4,7 @@ Report.twbx
 #FinalSubmission.twbx
 tableau_grading_rubric.pdf
 *.csv
-
+*.twbr
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
