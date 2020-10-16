@@ -15,7 +15,7 @@ Final work is published at Tableau Public account
 - [UsageTransition Dashboard](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_UsageTransition/UsageTransition)
 - [Diversity Dashboard](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Diversity/DiversityDashboard)
 - [All individual visuals and dashboards clubbed](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Combined_Visuals/Combined)
-- Two dynamic Maps are created with caption containing insights. Both the maps convey the changing popularity of stations over time but in two formats.
+- Two dynamic Maps are created with caption containing insights. Both the maps convey the changing popularity of stations over time but in two formats. Zipcode information is overlaid to the maps with US census data of 2018 median age with the  granularity of zipcodes.
   - [Map1](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Map1/Map1)
   - [Map2](https://public.tableau.com/profile/bincy.narath#!/vizhome/NewYork_CitiBikeData_Insights_Map1/Map2)
 
